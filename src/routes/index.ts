@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
-import testsRouter from './tests.routes';
+import notificationsRouter from './notifications.routes';
 
 const routes = Router();
 
-routes.use('/tests', testsRouter);
+routes.use('/notifications', notificationsRouter);
 
 export default routes;
