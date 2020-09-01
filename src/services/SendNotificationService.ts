@@ -4,7 +4,7 @@ import https from 'https';
 
 interface Message {
   app_id: string;
-  contents: { en: string };
+  contents: { en: string } | string;
   included_segments?: string[];
   external_id?: string;
 }
